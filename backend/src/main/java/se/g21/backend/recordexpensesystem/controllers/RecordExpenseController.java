@@ -31,7 +31,7 @@ import se.g21.backend.employeesystem.repository.EmployeeRepository;
 import se.g21.backend.enrollcoursesystem.entities.EnrollCourse;
 import se.g21.backend.enrollcoursesystem.repository.EnrollCourseRepository;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://172.17.0.201:8080")
 @RestController
 public class RecordExpenseController{
 

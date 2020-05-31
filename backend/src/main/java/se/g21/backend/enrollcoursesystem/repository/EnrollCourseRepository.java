@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.data.repository.query.Param;
 import java.util.Collection;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://172.17.0.201:8080")
 @RepositoryRestResource
 public interface EnrollCourseRepository extends JpaRepository<EnrollCourse, Long> {
     EnrollCourse findById(long id);

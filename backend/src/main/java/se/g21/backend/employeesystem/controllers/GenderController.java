@@ -9,7 +9,7 @@ import se.g21.backend.employeesystem.entities.Gender;
 import se.g21.backend.employeesystem.repository.GenderRepository;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://172.17.0.201:8080")
 @RestController
 public class GenderController {
 
