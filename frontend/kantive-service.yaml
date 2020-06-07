@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: client
+  namespace: default
+spec:
+  template:
+    spec:
+      containers:
+      - image: docker.io/newler55/client:v0.3
+        env:
+        - name: TARGET
+          value: "Client Sample v1"
