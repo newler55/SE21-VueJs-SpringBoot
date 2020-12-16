@@ -23,7 +23,7 @@ import se.g21.backend.reviewcoursesystem.repository.ImprovementRepository;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-@CrossOrigin(origins = "http://172.17.0.201:8080")
+@CrossOrigin(origins = "http://localhost:8080/")
 @RestController
 //inject object มาก่อนใช้งานโดยการประกาศ
 public class ReviewCourseController {

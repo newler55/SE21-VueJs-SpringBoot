@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import se.g21.backend.enrollcoursesystem.repository.*;
 import se.g21.backend.enrollcoursesystem.entities.*;
 
-@CrossOrigin(origins = "http://172.17.0.201:8080")
+@CrossOrigin(origins = "http://localhost:8080/")
 @RestController
 public class ComputerController {
 

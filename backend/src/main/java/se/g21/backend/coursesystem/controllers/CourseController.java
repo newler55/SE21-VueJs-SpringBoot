@@ -13,7 +13,7 @@ import se.g21.backend.coursesystem.repository.*;
 import se.g21.backend.employeesystem.entities.*;
 import se.g21.backend.employeesystem.repository.*;
 
-@CrossOrigin(origins = "http://172.17.0.201:8080")
+@CrossOrigin(origins = "http://localhost:8080/")
 @RestController
 public class CourseController {
 
