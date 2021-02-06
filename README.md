@@ -9,15 +9,16 @@
 ### backend using Spring Boot
 * `cd backend`
 * `[macOS] ./gradlew bootRun | gradlew bootRuno`
-* `application.properties :`
+* `[open browser] http://localhost:9000/db`
   ```
-  server.port = 9000
-  spring.h2.console.enabled=true
-  spring.h2.console.path=/db
-  spring.datasource.url=jdbc:h2:mem:testdb
-  spring.datasource.driverClassName=org.h2.Driver
-  spring.datasource.username=sa
-  spring.datasource.password=
+  application.properties :
+    server.port = 9000
+    spring.h2.console.enabled=true
+    spring.h2.console.path=/db
+    spring.datasource.url=jdbc:h2:mem:testdb
+    spring.datasource.driverClassName=org.h2.Driver
+    spring.datasource.username=sa
+    spring.datasource.password=
   ```
 ### UX/UI - Test
 * 1-หน้าหลัก.png
